@@ -1,0 +1,8 @@
+centre(id,nom,adresse).
+filiere(id,nom,code,centre_id*).
+annee(id,annee,filiere_id*).
+groupe(id,code,annee_id*,filiere_id*).
+stagiaire(id,nom,prenom,age,photo,carte_cin,bac,releve,group_id*,annee_id*,filiere_id*,centre_id*)
+
+data(id,nom,prenom,genre,email,password)
+
